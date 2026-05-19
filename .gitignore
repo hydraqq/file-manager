@@ -1,0 +1,12 @@
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+storage/
+logs/
+*.egg-info/
+dist/
+.pytest_cache/
+bandit_report.json
+zap_report.txt

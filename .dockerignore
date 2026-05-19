@@ -1,0 +1,12 @@
+.git
+.env
+venv
+__pycache__
+*.pyc
+*.pyo
+report
+Dockerfile
+docker-compose.yml
+.pre-commit-config.yaml
+bandit_report.json
+zap_report.txt

@@ -1,0 +1,20 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: detect-private-key
+
+  - repo: local
+    hooks:
+      - id: pip-audit
+        name: pip-audit
+        entry: pip-audit
+        language: system
+        args: ["-r", "requirements.txt"]
+        files: requirements.txt
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.8.0
+    hooks:
+      - id: bandit
+        args: ["-r", "src", "-ll"]
