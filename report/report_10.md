@@ -1,6 +1,6 @@
 # Отчёт — Задание 10: Шифрование файлов
 
-![upload_encrypted](Images/hw10/upload_encrypted.png)
+![env](Images/hw10/env.png)
 
 ![storage](Images/hw10/storage.png)
 
